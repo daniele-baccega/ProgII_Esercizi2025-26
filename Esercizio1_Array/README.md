@@ -33,6 +33,16 @@ In `src/main.c`:
 - Testare `is_sorted_array_recursive` e `is_sorted_array_iterative` con array ordinati e non ordinati.
 - Stampare i risultati in modo leggibile e confrontare i risultati delle due versioni.
 
+## Metodo di sviluppo - TDD (Test-Driven Development)
+**IMPORTANTE:** Implementare sempre seguendo TDD:
+1. Scrivere i test **prima** di implementare la funzione
+2. Eseguire i test (falliranno)
+3. Implementare la funzione
+4. Eseguire i test finché non passano
+5. Refactoring se necessario
+
+Scrivere i test in `src/main.c` per ogni funzione.
+
 ## Vincoli
 - Usare solo C standard (C11).
 - **Implementare due versioni per ogni funzione: una ricorsiva e una iterativa**.

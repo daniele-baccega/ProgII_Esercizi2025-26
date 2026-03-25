@@ -44,6 +44,16 @@ Implementare in `src/student.c` le seguenti funzioni:
 In `src/main.c`:
 - Scrivere test che verificano tutte le funzioni: creazione valida, troncamento stringhe lunghe, rifiuto parametri `NULL`, stampa sicura, aggiunta a array, ordinamento, ricerca.
 
+## Metodo di sviluppo - TDD (Test-Driven Development)
+**IMPORTANTE:** Implementare sempre seguendo TDD:
+1. Scrivere i test **prima** di implementare la funzione
+2. Eseguire i test (falliranno)
+3. Implementare la funzione
+4. Eseguire i test finché non passano
+5. Refactoring se necessario
+
+Scrivere i test in `src/main.c` per ogni funzione.
+
 ## Vincoli
 - Usare solo C standard (C11).
 - Non modificare le firme in `student.h`.

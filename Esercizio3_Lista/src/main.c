@@ -1,5 +1,4 @@
-#include "array_ops.h"
-
+#include "student.h"
 #include <stdio.h>
 
 int main(void) {
